@@ -1,5 +1,8 @@
+import numpy as np
+
+
 def main():
-    print("Hello from test-filter-repo!")
+    print(f"Hello from test-filter-repo {np.sum([1, 2, 3])}!")
 
 
 if __name__ == "__main__":
